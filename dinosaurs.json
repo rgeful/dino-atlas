@@ -1,0 +1,542 @@
+[
+  {
+    "name": "Tyrannosaurus rex",
+    "description": "Perhaps the most famous predator of all time, this massive carnivore had a bite force capable of crushing solid bone. It ruled the valleys of North America with keen binocular vision and a terrifying roar.",
+    "length": 12.3,
+    "height": 4.0,
+    "weight": 8400,
+    "funFacts": [
+      "Its name means 'Tyrant Lizard King'.",
+      "T-Rex teeth were the size of bananas.",
+      "Despite their size, they may have been covered in simple feathers."
+    ],
+    "originCountry": "United States",
+    "latitude": 47.50,
+    "longitude": -106.00,
+    "diet": "Carnivore",
+    "period": "Late Cretaceous",
+    "imageUrl": "/images/dinos/tyrannosaurus_rex.jpg"
+  },
+  {
+    "name": "Velociraptor",
+    "description": "A swift and intelligent hunter, the Velociraptor was much smaller than its movie counterparts but equally deadly. It used a large, sickle-shaped claw on each foot to pin down prey.",
+    "length": 2.0,
+    "height": 0.5,
+    "weight": 15,
+    "funFacts": [
+      "They were roughly the size of a modern turkey.",
+      "Real Velociraptors were covered in feathers.",
+      "The famous 'fighting dinosaurs' fossil shows one locked in combat with a Protoceratops."
+    ],
+    "originCountry": "Mongolia",
+    "latitude": 44.00,
+    "longitude": 103.00,
+    "diet": "Carnivore",
+    "period": "Late Cretaceous",
+    "imageUrl": "/images/dinos/velociraptor.jpg"
+  },
+  {
+    "name": "Triceratops",
+    "description": "With its three signature horns and massive bony frill, Triceratops is one of the most recognizable herbivores. It used its formidable headgear to defend against predators like the T-Rex.",
+    "length": 9.0,
+    "height": 3.0,
+    "weight": 9000,
+    "funFacts": [
+      "Its head was one of the largest of any land animal, reaching 8 feet long.",
+      "It had a beak similar to a parrot's for snapping tough plants.",
+      "The frill may have been used for display and temperature regulation."
+    ],
+    "originCountry": "United States",
+    "latitude": 43.00,
+    "longitude": -104.00,
+    "diet": "Herbivore",
+    "period": "Late Cretaceous",
+    "imageUrl": "/images/dinos/triceratops.jpg"
+  },
+  {
+    "name": "Spinosaurus",
+    "description": "This semi-aquatic giant is easily identified by the massive sail on its back and its crocodile-like snout. It was likely the largest carnivorous dinosaur, even longer than the T-Rex.",
+    "length": 15.0,
+    "height": 4.5,
+    "weight": 7000,
+    "funFacts": [
+      "It is the only known dinosaur adapted for swimming.",
+      "Its sail was supported by spines up to 7 feet tall.",
+      "It hunted fish and ancient sharks in the river systems of North Africa."
+    ],
+    "originCountry": "Egypt",
+    "latitude": 28.00,
+    "longitude": 29.00,
+    "diet": "Carnivore",
+    "period": "Late Cretaceous",
+    "imageUrl": "/images/dinos/spinosaurus.jpg"
+  },
+  {
+    "name": "Stegosaurus",
+    "description": "Famous for the double row of kite-shaped plates along its back, this herbivore was a tank of the Jurassic period. It defended itself with a menacing tail tipped with four sharp spikes.",
+    "length": 9.0,
+    "height": 4.0,
+    "weight": 3100,
+    "funFacts": [
+      "Its brain was famously small, roughly the size of a walnut.",
+      "The tail spikes are informally called a 'thagomizer'.",
+      "The plates on its back may have blushed with blood to scare enemies."
+    ],
+    "originCountry": "United States",
+    "latitude": 40.00,
+    "longitude": -105.50,
+    "diet": "Herbivore",
+    "period": "Late Jurassic",
+    "imageUrl": "/images/dinos/stegosaurus.jpg"
+  },
+  {
+    "name": "Brachiosaurus",
+    "description": "A true giant of the Jurassic, Brachiosaurus had longer front legs than back legs, giving it a giraffe-like stance. This posture allowed it to browse the high canopy that other dinosaurs couldn't reach.",
+    "length": 26.0,
+    "height": 13.0,
+    "weight": 35000,
+    "funFacts": [
+      "Its nostrils were located on the top of its head.",
+      "It could eat up to 880 pounds of plants every day.",
+      "Unlike many sauropods, it likely couldn't rear up on its hind legs."
+    ],
+    "originCountry": "United States",
+    "latitude": 39.00,
+    "longitude": -109.00,
+    "diet": "Herbivore",
+    "period": "Late Jurassic",
+    "imageUrl": "/images/dinos/brachiosaurus.jpg"
+  },
+  {
+    "name": "Argentinosaurus",
+    "description": "Widely considered one of the largest land animals to ever exist, this titanosaur shook the ground as it walked. Its sheer size was its best defense against predators.",
+    "length": 35.0,
+    "height": 7.3,
+    "weight": 75000,
+    "funFacts": [
+      "It may have weighed as much as 10 to 15 African elephants combined.",
+      "Its eggs were only about the size of a coconut.",
+      "It took 40 years for an Argentinosaurus to reach its full size."
+    ],
+    "originCountry": "Argentina",
+    "latitude": -38.90,
+    "longitude": -68.00,
+    "diet": "Herbivore",
+    "period": "Late Cretaceous",
+    "imageUrl": "/images/dinos/argentinosaurus.jpg"
+  },
+  {
+    "name": "Archaeopteryx",
+    "description": "This creature is the famous 'missing link' between non-avian dinosaurs and modern birds. It possessed dinosaur features like teeth and a tail, but also had fully formed flight feathers.",
+    "length": 0.5,
+    "height": 0.25,
+    "weight": 0.5,
+    "funFacts": [
+      "Its name means 'Ancient Wing'.",
+      "The first fossil feather was discovered in 1860.",
+      "It was roughly the size of a raven."
+    ],
+    "originCountry": "Germany",
+    "latitude": 48.90,
+    "longitude": 11.00,
+    "diet": "Carnivore",
+    "period": "Late Jurassic",
+    "imageUrl": "/images/dinos/archaeopteryx.jpg"
+  },
+  {
+    "name": "Iguanodon",
+    "description": "Iguanodon was a bulky herbivore that could switch between walking on two legs or four. It is best known for the large, conical spike on its thumb, which it used for defense.",
+    "length": 10.0,
+    "height": 2.7,
+    "weight": 4000,
+    "funFacts": [
+      "It was one of the first three dinosaurs ever scientifically named.",
+      "Early paleontologists mistakenly placed its thumb spike on its nose.",
+      "They had advanced chewing teeth that could grind tough plants."
+    ],
+    "originCountry": "Belgium",
+    "latitude": 50.50,
+    "longitude": 3.90,
+    "diet": "Herbivore",
+    "period": "Early Cretaceous",
+    "imageUrl": "/images/dinos/iguanodon.jpg"
+  },
+  {
+    "name": "Allosaurus",
+    "description": "Before the T-Rex appeared, Allosaurus was the apex predator of the Jurassic plains. It hunted in packs to take down massive long-necked dinosaurs.",
+    "length": 8.5,
+    "height": 3.0,
+    "weight": 1700,
+    "funFacts": [
+      "It could open its jaws extremely wide, like a snake.",
+      "It shed and replaced its teeth constantly.",
+      "A famous fossil specimen named 'Big Al' showed signs of 19 different injuries."
+    ],
+    "originCountry": "United States",
+    "latitude": 38.50,
+    "longitude": -110.00,
+    "diet": "Carnivore",
+    "period": "Late Jurassic",
+    "imageUrl": "/images/dinos/allosaurus.jpg"
+  },
+  {
+    "name": "Parasaurolophus",
+    "description": "This duck-billed dinosaur is famous for the long, curved tube crest extending from the back of its skull. Scientists believe this crest was used like a trumpet to communicate over long distances.",
+    "length": 9.5,
+    "height": 2.8,
+    "weight": 2500,
+    "funFacts": [
+      "The crest was hollow and connected to its nasal passages.",
+      "It walked on four legs but ran on two.",
+      "Its skin had a pebble-like texture."
+    ],
+    "originCountry": "Canada",
+    "latitude": 51.00,
+    "longitude": -112.00,
+    "diet": "Herbivore",
+    "period": "Late Cretaceous",
+    "imageUrl": "/images/dinos/parasaurolophus.jpg"
+  },
+  {
+    "name": "Giganotosaurus",
+    "description": "A South American predator that rivaled and potentially exceeded the T-Rex in size. It specialized in hunting the colossal sauropods of its region.",
+    "length": 13.0,
+    "height": 3.9,
+    "weight": 8000,
+    "funFacts": [
+      "Its name means 'Giant Southern Lizard'.",
+      "It had a smaller brain relative to its body size compared to T-Rex.",
+      "Its teeth were serrated like steak knives for slicing flesh."
+    ],
+    "originCountry": "Argentina",
+    "latitude": -39.00,
+    "longitude": -69.00,
+    "diet": "Carnivore",
+    "period": "Late Cretaceous",
+    "imageUrl": "/images/dinos/giganotosaurus.jpg"
+  },
+  {
+    "name": "Ankylosaurus",
+    "description": "The quintessential armored dinosaur, Ankylosaurus was covered in bony plates and wielded a heavy club at the end of its tail. It was the biological equivalent of a military tank.",
+    "length": 8.0,
+    "height": 1.7,
+    "weight": 6000,
+    "funFacts": [
+      "Even its eyelids had armored plates.",
+      "The tail club could swing with enough force to shatter bone.",
+      "It had a complex nose that may have heightened its sense of smell."
+    ],
+    "originCountry": "Canada",
+    "latitude": 52.00,
+    "longitude": -111.50,
+    "diet": "Herbivore",
+    "period": "Late Cretaceous",
+    "imageUrl": "/images/dinos/ankylosaurus.jpg"
+  },
+  {
+    "name": "Carnotaurus",
+    "description": "Known as the 'Meat-Eating Bull', this predator had two distinct horns above its eyes. It had incredibly powerful legs for sprinting but tiny, vestigial arms.",
+    "length": 8.0,
+    "height": 3.0,
+    "weight": 1500,
+    "funFacts": [
+      "Its arms were even smaller and more useless than T-Rex's.",
+      "Skin impressions show it had bumpy, scaly skin rather than feathers.",
+      "It likely specialized in high-speed pursuit of prey."
+    ],
+    "originCountry": "Argentina",
+    "latitude": -43.00,
+    "longitude": -69.00,
+    "diet": "Carnivore",
+    "period": "Late Cretaceous",
+    "imageUrl": "/images/dinos/carnotaurus.jpg"
+  },
+  {
+    "name": "Protoceratops",
+    "description": "A sheep-sized relative of Triceratops, Protoceratops lacked horns but possessed a wide frill. It is one of the most common dinosaur fossils found in the Gobi Desert.",
+    "length": 1.8,
+    "height": 0.6,
+    "weight": 80,
+    "funFacts": [
+      "Ancient discovery of their skulls may have inspired the Griffin myth.",
+      "They lived in large herds and cared for their young.",
+      "A famous fossil captures one locked in a death grip with a Velociraptor."
+    ],
+    "originCountry": "Mongolia",
+    "latitude": 43.50,
+    "longitude": 104.50,
+    "diet": "Herbivore",
+    "period": "Late Cretaceous",
+    "imageUrl": "/images/dinos/protoceratops.jpg"
+  },
+  {
+    "name": "Diplodocus",
+    "description": "One of the longest land animals ever, Diplodocus had a tail that resembled a whip. Its tail was so long and thin that it could likely crack the sound barrier when swung.",
+    "length": 25.0,
+    "height": 5.0,
+    "weight": 12000,
+    "funFacts": [
+      "It could replace its teeth at a rate of one every 35 days.",
+      "Its tail contained over 80 vertebrae.",
+      "It stripped leaves off branches using peg-like teeth."
+    ],
+    "originCountry": "United States",
+    "latitude": 40.50,
+    "longitude": -108.00,
+    "diet": "Herbivore",
+    "period": "Late Jurassic",
+    "imageUrl": "/images/dinos/diplodocus.jpg"
+  },
+  {
+    "name": "Baryonyx",
+    "description": "This fish-eating theropod had a long snout and a massive curved claw on its thumb. It prowled the riverbanks of early Europe, scooping up slippery prey.",
+    "length": 9.0,
+    "height": 2.5,
+    "weight": 1700,
+    "funFacts": [
+      "Its name means 'Heavy Claw'.",
+      "Fossilized stomach contents revealed it ate both fish and Iguanodon.",
+      "It is a close relative of the Spinosaurus."
+    ],
+    "originCountry": "United Kingdom",
+    "latitude": 51.10,
+    "longitude": -0.80,
+    "diet": "Carnivore",
+    "period": "Early Cretaceous",
+    "imageUrl": "/images/dinos/baryonyx.jpg"
+  },
+  {
+    "name": "Gallimimus",
+    "description": "Resembling a giant ostrich with a tail, Gallimimus was built for speed. It had a toothless beak and likely was an omnivore that ran from danger rather than fighting.",
+    "length": 6.0,
+    "height": 1.9,
+    "weight": 440,
+    "funFacts": [
+      "It is one of the fastest dinosaurs, potentially reaching 50 mph.",
+      "It had large eyes located on the sides of its head for wide vision.",
+      "Its name means 'Chicken Mimic'."
+    ],
+    "originCountry": "Mongolia",
+    "latitude": 44.50,
+    "longitude": 105.00,
+    "diet": "Omnivore",
+    "period": "Late Cretaceous",
+    "imageUrl": "/images/dinos/gallimimus.jpg"
+  },
+  {
+    "name": "Dilophosaurus",
+    "description": "Recognizable by the twin crests on its head, Dilophosaurus was an agile predator of the early Jurassic. Unlike the movies, there is no evidence it had a neck frill or spat poison.",
+    "length": 7.0,
+    "height": 2.0,
+    "weight": 400,
+    "funFacts": [
+      "The crests were fragile and likely used for display, not combat.",
+      "It had a notch in its upper jaw typical of early carnivorous dinosaurs.",
+      "It was much larger than its depiction in 'Jurassic Park'."
+    ],
+    "originCountry": "United States",
+    "latitude": 36.00,
+    "longitude": -111.00,
+    "diet": "Carnivore",
+    "period": "Early Jurassic",
+    "imageUrl": "/images/dinos/dilophosaurus.jpg"
+  },
+  {
+    "name": "Oviraptor",
+    "description": "Originally accused of being an egg thief, Oviraptor was later found to be a devoted parent brooding its own nests. It had a parrot-like beak and a distinct crest on its head.",
+    "length": 1.6,
+    "height": 0.8,
+    "weight": 35,
+    "funFacts": [
+      "Its name unfairly translates to 'Egg Seizer'.",
+      "It was covered in feathers, resembling a strange flightless bird.",
+      "It had powerful jaw muscles for crushing hard food."
+    ],
+    "originCountry": "Mongolia",
+    "latitude": 43.80,
+    "longitude": 104.20,
+    "diet": "Omnivore",
+    "period": "Late Cretaceous",
+    "imageUrl": "/images/dinos/oviraptor.jpg"
+  },
+  {
+    "name": "Compsognathus",
+    "description": "Once considered the smallest dinosaur, Compsognathus was a nimble hunter of insects and lizards. It was the size of a chicken and darted around the tropical islands of prehistoric Europe.",
+    "length": 1.0,
+    "height": 0.3,
+    "weight": 2.5,
+    "funFacts": [
+      "Its name means 'Elegant Jaw'.",
+      "It is one of the few dinosaurs found with fossilized prey inside its stomach.",
+      "It had two functional fingers on each hand."
+    ],
+    "originCountry": "Germany",
+    "latitude": 48.80,
+    "longitude": 11.80,
+    "diet": "Carnivore",
+    "period": "Late Jurassic",
+    "imageUrl": "/images/dinos/compsognathus.jpg"
+  },
+  {
+    "name": "Microraptor",
+    "description": "This tiny dinosaur had four wings—feathers on both its arms and its legs. It lived in the trees of ancient China and glided from branch to branch.",
+    "length": 0.8,
+    "height": 0.15,
+    "weight": 1,
+    "funFacts": [
+      "It is one of the smallest known non-avian dinosaurs.",
+      "Fossils show it had iridescent black feathers like a crow.",
+      "It ate small mammals, birds, and fish."
+    ],
+    "originCountry": "China",
+    "latitude": 41.50,
+    "longitude": 120.50,
+    "diet": "Carnivore",
+    "period": "Early Cretaceous",
+    "imageUrl": "/images/dinos/microraptor.jpg"
+  },
+  {
+    "name": "Muttaburrasaurus",
+    "description": "Australia's most famous dinosaur, Muttaburrasaurus was a large herbivore with a distinctive hollow bump on its snout. It likely used this bump to create loud calls.",
+    "length": 8.0,
+    "height": 2.5,
+    "weight": 2800,
+    "funFacts": [
+      "It had teeth designed for shearing tough cycads.",
+      "It walked on two legs but could drop to four to feed.",
+      "It is the most complete dinosaur skeleton found in Australia."
+    ],
+    "originCountry": "Australia",
+    "latitude": -22.60,
+    "longitude": 144.50,
+    "diet": "Herbivore",
+    "period": "Early Cretaceous",
+    "imageUrl": "/images/dinos/muttaburrasaurus.jpg"
+  },
+  {
+    "name": "Cryolophosaurus",
+    "description": "Known as the 'Elvisaurus' due to the pompadour-like crest on its head, this predator ruled the cold forests of Antarctica. It proves that dinosaurs thrived even in polar regions.",
+    "length": 6.5,
+    "height": 2.0,
+    "weight": 465,
+    "funFacts": [
+      "It is the first carnivorous dinosaur discovered in Antarctica.",
+      "The crest runs perpendicular to the skull, unlike other dinosaurs.",
+      "It lived when Antarctica was a temperate rainforest, not an ice sheet."
+    ],
+    "originCountry": "Antarctica",
+    "latitude": -84.00,
+    "longitude": 164.00,
+    "diet": "Carnivore",
+    "period": "Early Jurassic",
+    "imageUrl": "/images/dinos/cryolophosaurus.jpg"
+  },
+  {
+    "name": "Therizinosaurus",
+    "description": "One of the weirdest dinosaurs, Therizinosaurus had gigantic claws that grew up to three feet long. Despite these terrifying weapons, it was a pot-bellied herbivore.",
+    "length": 10.0,
+    "height": 5.0,
+    "weight": 5000,
+    "funFacts": [
+      "Its claws are the longest of any known animal.",
+      "It looked like a giant sloth crossed with a bird.",
+      "It used its claws to pull down tree branches, not to hunt."
+    ],
+    "originCountry": "Mongolia",
+    "latitude": 43.60,
+    "longitude": 104.00,
+    "diet": "Herbivore",
+    "period": "Late Cretaceous",
+    "imageUrl": "/images/dinos/therizinosaurus.jpg"
+  },
+  {
+    "name": "Carcharodontosaurus",
+    "description": "This 'Shark-Toothed Lizard' was a massive predator that competed with Spinosaurus in North Africa. Its serrated teeth were designed to slash through flesh, causing massive blood loss.",
+    "length": 12.0,
+    "height": 3.6,
+    "weight": 7000,
+    "funFacts": [
+      "Its skull was larger than that of a T-Rex.",
+      "It had 6-inch long serrated teeth.",
+      "It was a primitive cousin of the Giganotosaurus."
+    ],
+    "originCountry": "Morocco",
+    "latitude": 31.00,
+    "longitude": -4.00,
+    "diet": "Carnivore",
+    "period": "Late Cretaceous",
+    "imageUrl": "/images/dinos/carcharodontosaurus.jpg"
+  },
+  {
+    "name": "Giraffatitan",
+    "description": "Often confused with Brachiosaurus, this African giant was even taller and more lightly built. It is the centerpiece of the famous Berlin museum display.",
+    "length": 23.0,
+    "height": 12.0,
+    "weight": 40000,
+    "funFacts": [
+      "Its name literally means 'Giant Giraffe'.",
+      "The crest on its head was once thought to be a snorkel.",
+      "It stood over 40 feet tall."
+    ],
+    "originCountry": "Tanzania",
+    "latitude": -9.50,
+    "longitude": 39.50,
+    "diet": "Herbivore",
+    "period": "Late Jurassic",
+    "imageUrl": "/images/dinos/giraffatitan.jpg"
+  },
+  {
+    "name": "Sinosauropteryx",
+    "description": "This small theropod was the first dinosaur fossil found that confirmed non-avian dinosaurs had feathers. It had a long, striped tail resembling a lemur's.",
+    "length": 1.0,
+    "height": 0.25,
+    "weight": 0.55,
+    "funFacts": [
+      "Scientists determined it had ginger-colored feathers and a banded tail.",
+      "It lacked the complex wings of later bird-like dinosaurs.",
+      "It was only about a meter long."
+    ],
+    "originCountry": "China",
+    "latitude": 41.80,
+    "longitude": 121.00,
+    "diet": "Carnivore",
+    "period": "Early Cretaceous",
+    "imageUrl": "/images/dinos/sinosauropteryx.jpg"
+  },
+  {
+    "name": "Psittacosaurus",
+    "description": "Known as the 'Parrot Lizard', this small herbivore had a distinct beak and cheek spikes. It is one of the most abundant dinosaur fossils, with hundreds of specimens found.",
+    "length": 2.0,
+    "height": 0.6,
+    "weight": 20,
+    "funFacts": [
+      "Fossils show it had long, quill-like bristles on its tail.",
+      "It swallowed stones (gastroliths) to help grind up food.",
+      "It is an early relative of the Triceratops."
+    ],
+    "originCountry": "China",
+    "latitude": 42.00,
+    "longitude": 122.00,
+    "diet": "Herbivore",
+    "period": "Early Cretaceous",
+    "imageUrl": "/images/dinos/psittacosaurus.jpg"
+  },
+  {
+    "name": "Patagotitan",
+    "description": "A contender for the title of the largest animal ever, Patagotitan was a colossal titanosaur from Patagonia. Its thigh bone alone is taller than a human.",
+    "length": 37.0,
+    "height": 8.0,
+    "weight": 77000,
+    "funFacts": [
+      "It weighed an estimated 70 tons, equal to a space shuttle.",
+      "It was only discovered recently, in 2012.",
+      "A cast of its skeleton is displayed in the American Museum of Natural History."
+    ],
+    "originCountry": "Argentina",
+    "latitude": -43.70,
+    "longitude": -67.80,
+    "diet": "Herbivore",
+    "period": "Early Cretaceous",
+    "imageUrl": "/images/dinos/patagotitan.jpg"
+  }
+]

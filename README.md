@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dino Atlas
 
-## Getting Started
+An interactive geospatial dashboard that visualizes the prehistoric world. Users can explore a global map of dinosaur discovery sites, featuring a "fly-to" interaction system that syncs a searchable sidebar with a dynamic map interface.
 
-First, run the development server:
+## Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* **Frontend:** [Next.js] & [TailwindCSS]
+* **Map Engine:** [Leaflet] & [React-Leaflet]
+* **Database:** [PostgreSQL] hosted via [Supabase]
+* **ORM:** [DrizzleORM]
+* **Language:** TypeScript
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Interactive Geospatial Map:** Smoothly navigate to specific excavation regions using Leaflet's `flyTo` animations.
+* **Synchronized UI State:** Selecting a dinosaur in the sidebar triggers a map movement and highlights the discovery site.
+* **Type-Safe Database Access:** Uses Drizzle ORM to interface with a cloud-hosted Postgres database, ensuring data integrity across the stack.
+* **Responsive Sidebar:** A clean, modern list inspired by [Kumamap](https://kumamap.com/), displaying species name, diet, and time period.
+* **Optimized Client Loading:** Implements Next.js dynamic imports with `ssr: false` to handle browser-only map libraries efficiently.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## System Design & Technical Challenges
 
-## Learn More
+### 1. Handling SSR with Geospatial Libraries
+Leaflet requires access to the `window` and `document` objects, which are not available during Next.js Server-Side Rendering (SSR). I solved this by using **Dynamic Imports** with `ssr: false` to ensure the map engine only initializes on the client side.
 
-To learn more about Next.js, take a look at the following resources:
+### 2. Relational Data Modeling
+I designed a schema to handle complex prehistoric data, utilizing `doublePrecision` for scientific measurements (length, weight) to allow for future sorting/filtering features, and `JSONB` or array types for flexible trivia storage.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 3. Decoupled Architecture
+By using **Drizzle ORM**, the application logic is decoupled from the specific database provider. This allows the system to remain database-agnostic while providing full type safety from the database to the UI.
