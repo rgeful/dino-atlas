@@ -61,10 +61,15 @@ export default function Map({ dinos, selectedDino, onSelectDino }: MapProps) {
       center={defaultCenter}
       zoom={2}
       className="h-full w-full"
+      style={{ height: "100%", width: "100%" }}
+      scrollWheelZoom={true}
+      key="map-container"
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        noWrap={true}
+        key="tile-layer"
       />
 
       {dinos.map((dino) => (

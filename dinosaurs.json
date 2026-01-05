@@ -180,6 +180,24 @@
     "imageUrl": "/images/dinos/allosaurus.jpg"
   },
   {
+    "name": "Acrocanthosaurus",
+    "description": "Acrocanthosaurus was a large theropod known for the tall spines running along its back, which likely supported a sail or hump. It was a dominant predator in early Cretaceous North America.",
+    "length": 12,
+    "height": 3.3,
+    "weight": 5500,
+    "funFacts": [
+      "It used its strong arms to pull prey towards its body",
+      "Hunted large dinosaurs like the sauropod Paluxysaurus, leaving tooth marks on their bones.",
+      "Had large olfactory bulbs, indicating a good sense of smell, and its brain cavity suggests a downward-pointing head when resting."
+    ],
+    "originCountry": "United States",
+    "latitude": 34.38,
+    "longitude": -96.05,
+    "diet": "Carnivore",
+    "period": "Early Cretaceous",
+    "imageUrl": "/images/dinos/acrocanthosaurus.jpg"
+  },
+  {
     "name": "Parasaurolophus",
     "description": "This duck-billed dinosaur is famous for the long, curved tube crest extending from the back of its skull. Scientists believe this crest was used like a trumpet to communicate over long distances.",
     "length": 9.5,

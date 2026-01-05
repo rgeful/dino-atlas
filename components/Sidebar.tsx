@@ -51,7 +51,7 @@ export default function Sidebar({ dinos, onSelectDino, expandedDinoId, setExpand
   };
 
   return (
-    <div className="w-80 h-full bg-white border-r border-gray-200 overflow-y-auto">
+    <div className="w-100 h-full bg-white border-r border-gray-200 overflow-y-auto">
       <div className="p-6">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Dinosaurs</h2>
         <p className="text-sm text-gray-600 mb-6">

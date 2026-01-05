@@ -65,14 +65,14 @@ export default function MapPage() {
   }
 
   return (
-    <div className="flex h-screen pt-16">
+    <div className="flex fixed top-16 left-0 right-0 bottom-0">
       <Sidebar
         dinos={dinos}
         onSelectDino={handleSelectDino}
         expandedDinoId={expandedDinoId}
         setExpandedDinoId={setExpandedDinoId}
       />
-      <div className="flex-1">
+      <div className="flex-1 h-full">
         <Map
           dinos={dinos}
           selectedDino={selectedDino}
