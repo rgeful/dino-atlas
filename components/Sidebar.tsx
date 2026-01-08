@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useEffect } from "react";
+import Image from "next/image";
 
 interface Dino {
   id: number;
@@ -95,6 +96,16 @@ export default function Sidebar({ dinos, onSelectDino, expandedDinoId, setExpand
                       <p className="text-sm text-gray-700 leading-relaxed">
                         {dino.description}
                       </p>
+                    )}
+
+                    {dino.imageUrl && (
+                      <Image
+                        src={dino.imageUrl}
+                        alt={dino.name}
+                        width={400}
+                        height={160}
+                        className="w-full h-40 object-cover rounded-lg"
+                      />
                     )}
 
                     <div className="grid grid-cols-2 gap-2 text-sm">
