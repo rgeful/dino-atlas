@@ -1,6 +1,8 @@
 # Dino Atlas
 
 https://github.com/user-attachments/assets/a1c61e22-d727-4a37-b532-c1661663562b
+<img width="1897" height="1014" alt="LandingPage" src="https://github.com/user-attachments/assets/3ed48e0c-7d7e-479e-b3e1-c77a8b76963a" />
+<img width="1913" height="1010" alt="AboutPage" src="https://github.com/user-attachments/assets/20d7a3c8-87a9-484a-aa32-b4efa6dbe9ac" />
 
 An interactive geospatial dashboard that visualizes the prehistoric world. Users can explore a global map of dinosaur discovery sites, featuring a "fly-to" interaction system that syncs a searchable sidebar with a dynamic map interface.
 
