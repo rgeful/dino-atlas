@@ -1,5 +1,7 @@
 # Dino Atlas
 
+https://github.com/user-attachments/assets/a1c61e22-d727-4a37-b532-c1661663562b
+
 An interactive geospatial dashboard that visualizes the prehistoric world. Users can explore a global map of dinosaur discovery sites, featuring a "fly-to" interaction system that syncs a searchable sidebar with a dynamic map interface.
 
 ## Tech Stack
@@ -28,3 +30,5 @@ I designed a schema to handle complex prehistoric data, utilizing `doublePrecisi
 
 ### 3. Decoupled Architecture
 By using **Drizzle ORM**, the application logic is decoupled from the specific database provider. This allows the system to remain database-agnostic while providing full type safety from the database to the UI.
+
+
